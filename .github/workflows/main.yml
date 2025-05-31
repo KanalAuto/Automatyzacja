@@ -48,4 +48,4 @@ jobs:
             server: ${{ secrets.host }}
             username: ${{ secrets.login }}
             password: ${{ secrets.password }}
-            local-dir: ./${{ secrets.directory }}/
+            local-dir: ./patrycja_graczykowska/
