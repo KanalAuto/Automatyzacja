@@ -44,8 +44,7 @@ jobs:
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-            protocol: ftps
             server: ${{ secrets.host }}
             username: ${{ secrets.login }}
             password: ${{ secrets.password }}
-            local-dir: ./patrycja_graczykowska/
+            sever-dir: ./patrycja_graczykowska/
